@@ -1,18 +1,18 @@
 INSRANGE = [
-    [21,69], #piano
-    [21,69], #double bass
+    [21,68], #piano
+    [9,56], #double bass
     [33,57], #bass drum
     [33,57], #snare drum
     [33,57], #click
-    [21,69], #guitar
-    [21,69], #flute
+    [21,68], #guitar
+    [21,68], #flute
     [33,57], #bell
-    [21,69], #chime
-    [16,64], #xylophone
-    [33,69], #iron xylophone
+    [21,68], #chime
+    [16,63], #xylophone
+    [33,68], #iron xylophone
     [33,57], #cow bell
     [33,57], #digeridoo
-    [21,69], #bit
+    [21,68], #bit
     [33,57], #banjo
     [33,57]  #pling
 ]
@@ -37,24 +37,31 @@ INSTRUMENTS = [
 ]
 
 INSTRUMENTS_BLOCK = [
-  'minecraft:dirt',
-  'minecraft:oak_planks',
+  'pipeorgans:gedeckt',
+  'pipeorgans:subbass',
   'minecraft:stone',
   'minecraft:sand',
   'minecraft:glass',
-  'minecraft:white_wool',
-  'minecraft:clay',
+  'pipeorgans:diapason',
+  'pipeorgans:gamba',
   'minecraft:gold_block',
-  'minecraft:packed_ice',
-  'minecraft:bone_block',
-  'minecraft:iron_block',
+  'pipeorgans:piccolo',
+  'pipeorgans:nasard',
+  'create:steam_whistle',
   'minecraft:soul_sand',
   'minecraft:pumpkin',
-  'minecraft:emerald_block',
+  'pipeorgans:trompette',
   'minecraft:hay_block',
   'minecraft:glowstone'
 ]
 
+ORGAN_SIZES = [
+  'tiny',
+  'small',
+  'medium',
+  'large',
+  'huge'
+]
 
 MINECRAFT_BLOCKS = [
   "stone",
@@ -82,8 +89,6 @@ MINECRAFT_BLOCKS = [
   "acacia_sapling",
   "dark_oak_sapling",
   "bedrock",
-  "water",
-  "lava",
   "sand",
   "red_sand",
   "gravel",
